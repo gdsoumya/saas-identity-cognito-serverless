@@ -1,0 +1,21 @@
+{
+    "aws_region" : <AWS REGION>,
+    "cognito_region" : <AWS REGION>,
+    "aws_account" : <AWS ACCOUNT ID>,
+    "userRole": {
+        "systemAdmin" : "SystemAdmin",
+        "systemUser" : "SystemUser",
+        "tenantAdmin" : "TenantAdmin",
+        "tenantUser" : "TenantUser"
+    },
+    "tier": {
+        "system": "System Tier"
+    },
+    "table":{
+        "user" : "User",
+        "tenant" : "Tenant",
+        "product" : "Product",
+        "order" : "Order" 
+    }
+  }
+  
